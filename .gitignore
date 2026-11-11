@@ -1,0 +1,44 @@
+# OS
+.DS_Store
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo / RN
+.expo/
+dist/
+web-build/
+*.orig.*
+ios/
+android/
+
+# Native builds / binaries (never commit — large)
+*.apk
+*.aab
+*.ipa
+build-*.apk
+
+# Metro / caches
+.metro-health-check*
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*
+*.keystore
+*.jks
+google-service-account.json
+google-services.json
+GoogleService-Info.plist
+
+# Logs
+npm-debug.*
+yarn-error.*
+*.log
+
+# Editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
